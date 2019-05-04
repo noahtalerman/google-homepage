@@ -4,6 +4,7 @@
 
 .top-link{
     margin: 5px 5px 0 0;
+    text-decoration: none;
 }
 
 .push{
@@ -24,4 +25,17 @@
 .bottom-links{
     display:flex;
     justify-content: center;
+}
+
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    width: 98%;
+}
+
+.footer-link{
+    margin-right: 5px;
+    margin-top: 10px;
+    text-decoration: none;
 }
